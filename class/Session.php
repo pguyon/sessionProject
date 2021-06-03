@@ -23,7 +23,7 @@ class Session
         return $this->attributs[$key];
     }
 
-    public function setAttributes()
+    public function add()
     {
         return $this->attributs;
     }
