@@ -2,10 +2,10 @@
 require 'class/Session.php';
 
 $session = new Session();
-$session->nom = 'Black';
-$session->prenom = 'Widow';
+$session->nom = 'Bon';
+$session->prenom = 'Jean';
 $session->age = 31;
-$session->adresse = "Marvel";
+$session->adresse = "Carrefour";
 var_dump($session);
 
 echo 'je m\'appel ' . $session->prenom . ' et j\'ai ' . $session->age . ' ans';
